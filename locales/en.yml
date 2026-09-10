@@ -1,0 +1,6 @@
+en:
+  theme_metadata:
+    description: Adds a custom BakersClub homepage hero with branding, a featured
+      image, and integrated Discourse search.
+    settings:
+      example_setting: A description of a setting.
