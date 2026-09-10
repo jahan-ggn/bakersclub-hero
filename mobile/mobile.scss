@@ -1,0 +1,17 @@
+.bakersclub-hero {
+  &__image {
+    height: clamp(240px, 72vw, 320px);
+  }
+
+  &__search {
+    left: 50%;
+    bottom: 1.5em;
+    width: calc(100% - 2em);
+    transform: translateX(-50%);
+
+    .search-input {
+      height: 52px;
+      padding-left: 3em;
+    }
+  }
+}

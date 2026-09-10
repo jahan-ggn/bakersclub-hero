@@ -1,2 +1,4 @@
-example_setting:
-  default: true
+hero_image:
+  default: ""
+  type: upload
+  required: true
