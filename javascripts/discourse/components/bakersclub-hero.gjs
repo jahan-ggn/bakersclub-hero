@@ -2,6 +2,7 @@ import Component from "@glimmer/component";
 import { service } from "@ember/service";
 import SearchMenu from "discourse/components/search-menu";
 import { defaultHomepage } from "discourse/lib/utilities";
+import { and } from "discourse/truth-helpers";
 
 export default class BakersClubHero extends Component {
   @service router;
@@ -11,7 +12,7 @@ export default class BakersClubHero extends Component {
   }
 
   <template>
-    {{#if this.shouldShow}}
+    {{#if (and this.shouldShow settings.hero_image)}}
       <section class="bakersclub-hero">
         <img
           class="bakersclub-hero__image"
