@@ -70,7 +70,7 @@
   }
 }
 
-@media (max-width: 375px) {
+@media (width <= 375px) {
   .bakersclub-hero {
     &__image {
       height: 300px;
@@ -104,7 +104,7 @@
   }
 }
 
-@media (min-width: 430px) and (max-width: 767px) {
+@media (width >= 430px) and (width <= 767px) {
   .bakersclub-hero {
     &__image {
       height: clamp(340px, 75vw, 400px);
