@@ -21,6 +21,14 @@ export default class BakersClubHero extends Component {
           src={{settings.hero_image}}
         />
 
+        {{#if settings.hero_overlay_image}}
+          <img
+            alt=""
+            class="bakersclub-hero__overlay-image"
+            src={{settings.hero_overlay_image}}
+          />
+        {{/if}}
+
         <div class="bakersclub-hero__content">
           {{#if settings.hero_content}}
             <div class="bakersclub-hero__text">

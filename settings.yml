@@ -6,3 +6,8 @@ hero_content:
   default: ""
   type: string
   description: "Optional text displayed above the hero search bar."
+hero_overlay_image:
+  default: ""
+  type: upload
+  required: false
+
